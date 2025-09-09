@@ -7,7 +7,7 @@ int main() {
 
     // Saisie des coefficients
     printf("Entrez a, b et c : ");
-    scanf("%lf %lf %lf", &a, &b, &c);
+    scanf_s("%lf %lf %lf", &a, &b, &c);
 
     if (a == 0) {
         printf("Ce n'est pas une équation du second degré.\n");
