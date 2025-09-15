@@ -142,6 +142,9 @@
 		},
 		{
 			"path" : "TD1/CMakeLists.txt"
+		},
+		{
+			"path" : "TD2/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

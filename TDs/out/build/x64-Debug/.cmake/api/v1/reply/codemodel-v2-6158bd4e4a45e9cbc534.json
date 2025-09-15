@@ -8,7 +8,8 @@
 					"build" : ".",
 					"childIndexes" : 
 					[
-						1
+						1,
+						2
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -30,14 +31,33 @@
 					"source" : "TD1",
 					"targetIndexes" : 
 					[
-						0,
 						1,
 						2,
 						3,
 						4,
 						5,
 						6,
-						7
+						7,
+						8
+					]
+				},
+				{
+					"build" : "TD2",
+					"jsonFile" : "directory-TD2-Debug-6c2872e3574fabcfa3d2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "TD2",
+					"targetIndexes" : 
+					[
+						0,
+						9,
+						10,
+						11,
+						12
 					]
 				}
 			],
@@ -48,7 +68,8 @@
 					"directoryIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					],
 					"name" : "TDs",
 					"targetIndexes" : 
@@ -60,12 +81,24 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 2,
+					"id" : "Point3DTest::@9da4ee0c75e8576e4e08",
+					"jsonFile" : "target-Point3DTest-Debug-4071d7ab2b759f0be1b5.json",
+					"name" : "Point3DTest",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 1,
 					"id" : "TD1_1::@b566191a3c274e145dff",
@@ -120,6 +153,34 @@
 					"id" : "TD1_8::@b566191a3c274e145dff",
 					"jsonFile" : "target-TD1_8-Debug-45c4c38115dab73314e2.json",
 					"name" : "TD1_8",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "TD2_1::@9da4ee0c75e8576e4e08",
+					"jsonFile" : "target-TD2_1-Debug-a873fcf4394b562c7339.json",
+					"name" : "TD2_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "TD2_2::@9da4ee0c75e8576e4e08",
+					"jsonFile" : "target-TD2_2-Debug-760b765b85c679a8b5f3.json",
+					"name" : "TD2_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "TD2_3::@9da4ee0c75e8576e4e08",
+					"jsonFile" : "target-TD2_3-Debug-b7115515b6217ca8c5cb.json",
+					"name" : "TD2_3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "TrajectoryTest::@9da4ee0c75e8576e4e08",
+					"jsonFile" : "target-TrajectoryTest-Debug-4a2c191b988b951e364c.json",
+					"name" : "TrajectoryTest",
 					"projectIndex" : 0
 				}
 			]

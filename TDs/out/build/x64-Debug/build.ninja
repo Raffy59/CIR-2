@@ -380,7 +380,240 @@ build TD1\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
 build TD1\rebuild_cache: phony TD1\CMakeFiles\rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/raffa/source/repos/CIR-2/TDs/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target TD2_1
+
+
+#############################################
+# Order-only phony target for TD2_1
+
+build cmake_object_order_depends_target_TD2_1: phony || .
+
+build TD2\CMakeFiles\TD2_1.dir\TD2_1.cpp.obj: CXX_COMPILER__TD2_1_unscanned_Debug C$:\Users\raffa\source\repos\CIR-2\TDs\TD2\TD2_1.cpp || cmake_object_order_depends_target_TD2_1
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  OBJECT_DIR = TD2\CMakeFiles\TD2_1.dir
+  OBJECT_FILE_DIR = TD2\CMakeFiles\TD2_1.dir
+  TARGET_COMPILE_PDB = TD2\CMakeFiles\TD2_1.dir\
+  TARGET_PDB = TD2\TD2_1.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target TD2_1
+
+
+#############################################
+# Link the executable TD2\TD2_1.exe
+
+build TD2\TD2_1.exe: CXX_EXECUTABLE_LINKER__TD2_1_Debug TD2\CMakeFiles\TD2_1.dir\TD2_1.cpp.obj
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = TD2\CMakeFiles\TD2_1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = TD2\CMakeFiles\TD2_1.dir\
+  TARGET_FILE = TD2\TD2_1.exe
+  TARGET_IMPLIB = TD2\TD2_1.lib
+  TARGET_PDB = TD2\TD2_1.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target TD2_2
+
+
+#############################################
+# Order-only phony target for TD2_2
+
+build cmake_object_order_depends_target_TD2_2: phony || .
+
+build TD2\CMakeFiles\TD2_2.dir\TD2_2.cpp.obj: CXX_COMPILER__TD2_2_unscanned_Debug C$:\Users\raffa\source\repos\CIR-2\TDs\TD2\TD2_2.cpp || cmake_object_order_depends_target_TD2_2
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  OBJECT_DIR = TD2\CMakeFiles\TD2_2.dir
+  OBJECT_FILE_DIR = TD2\CMakeFiles\TD2_2.dir
+  TARGET_COMPILE_PDB = TD2\CMakeFiles\TD2_2.dir\
+  TARGET_PDB = TD2\TD2_2.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target TD2_2
+
+
+#############################################
+# Link the executable TD2\TD2_2.exe
+
+build TD2\TD2_2.exe: CXX_EXECUTABLE_LINKER__TD2_2_Debug TD2\CMakeFiles\TD2_2.dir\TD2_2.cpp.obj
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = TD2\CMakeFiles\TD2_2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = TD2\CMakeFiles\TD2_2.dir\
+  TARGET_FILE = TD2\TD2_2.exe
+  TARGET_IMPLIB = TD2\TD2_2.lib
+  TARGET_PDB = TD2\TD2_2.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target TD2_3
+
+
+#############################################
+# Order-only phony target for TD2_3
+
+build cmake_object_order_depends_target_TD2_3: phony || .
+
+build TD2\CMakeFiles\TD2_3.dir\TD2_3.cpp.obj: CXX_COMPILER__TD2_3_unscanned_Debug C$:\Users\raffa\source\repos\CIR-2\TDs\TD2\TD2_3.cpp || cmake_object_order_depends_target_TD2_3
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  OBJECT_DIR = TD2\CMakeFiles\TD2_3.dir
+  OBJECT_FILE_DIR = TD2\CMakeFiles\TD2_3.dir
+  TARGET_COMPILE_PDB = TD2\CMakeFiles\TD2_3.dir\
+  TARGET_PDB = TD2\TD2_3.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target TD2_3
+
+
+#############################################
+# Link the executable TD2\TD2_3.exe
+
+build TD2\TD2_3.exe: CXX_EXECUTABLE_LINKER__TD2_3_Debug TD2\CMakeFiles\TD2_3.dir\TD2_3.cpp.obj
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = TD2\CMakeFiles\TD2_3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = TD2\CMakeFiles\TD2_3.dir\
+  TARGET_FILE = TD2\TD2_3.exe
+  TARGET_IMPLIB = TD2\TD2_3.lib
+  TARGET_PDB = TD2\TD2_3.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Point3DTest
+
+
+#############################################
+# Order-only phony target for Point3DTest
+
+build cmake_object_order_depends_target_Point3DTest: phony || .
+
+build TD2\CMakeFiles\Point3DTest.dir\main.cpp.obj: CXX_COMPILER__Point3DTest_unscanned_Debug C$:\Users\raffa\source\repos\CIR-2\TDs\TD2\main.cpp || cmake_object_order_depends_target_Point3DTest
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  OBJECT_DIR = TD2\CMakeFiles\Point3DTest.dir
+  OBJECT_FILE_DIR = TD2\CMakeFiles\Point3DTest.dir
+  TARGET_COMPILE_PDB = TD2\CMakeFiles\Point3DTest.dir\
+  TARGET_PDB = TD2\Point3DTest.pdb
+
+build TD2\CMakeFiles\Point3DTest.dir\Point3D.cpp.obj: CXX_COMPILER__Point3DTest_unscanned_Debug C$:\Users\raffa\source\repos\CIR-2\TDs\TD2\Point3D.cpp || cmake_object_order_depends_target_Point3DTest
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  OBJECT_DIR = TD2\CMakeFiles\Point3DTest.dir
+  OBJECT_FILE_DIR = TD2\CMakeFiles\Point3DTest.dir
+  TARGET_COMPILE_PDB = TD2\CMakeFiles\Point3DTest.dir\
+  TARGET_PDB = TD2\Point3DTest.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Point3DTest
+
+
+#############################################
+# Link the executable TD2\Point3DTest.exe
+
+build TD2\Point3DTest.exe: CXX_EXECUTABLE_LINKER__Point3DTest_Debug TD2\CMakeFiles\Point3DTest.dir\main.cpp.obj TD2\CMakeFiles\Point3DTest.dir\Point3D.cpp.obj
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = TD2\CMakeFiles\Point3DTest.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = TD2\CMakeFiles\Point3DTest.dir\
+  TARGET_FILE = TD2\Point3DTest.exe
+  TARGET_IMPLIB = TD2\Point3DTest.lib
+  TARGET_PDB = TD2\Point3DTest.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target TrajectoryTest
+
+
+#############################################
+# Order-only phony target for TrajectoryTest
+
+build cmake_object_order_depends_target_TrajectoryTest: phony || .
+
+build TD2\CMakeFiles\TrajectoryTest.dir\maint.cpp.obj: CXX_COMPILER__TrajectoryTest_unscanned_Debug C$:\Users\raffa\source\repos\CIR-2\TDs\TD2\maint.cpp || cmake_object_order_depends_target_TrajectoryTest
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  OBJECT_DIR = TD2\CMakeFiles\TrajectoryTest.dir
+  OBJECT_FILE_DIR = TD2\CMakeFiles\TrajectoryTest.dir
+  TARGET_COMPILE_PDB = TD2\CMakeFiles\TrajectoryTest.dir\
+  TARGET_PDB = TD2\TrajectoryTest.pdb
+
+build TD2\CMakeFiles\TrajectoryTest.dir\Trajectory.cpp.obj: CXX_COMPILER__TrajectoryTest_unscanned_Debug C$:\Users\raffa\source\repos\CIR-2\TDs\TD2\Trajectory.cpp || cmake_object_order_depends_target_TrajectoryTest
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  OBJECT_DIR = TD2\CMakeFiles\TrajectoryTest.dir
+  OBJECT_FILE_DIR = TD2\CMakeFiles\TrajectoryTest.dir
+  TARGET_COMPILE_PDB = TD2\CMakeFiles\TrajectoryTest.dir\
+  TARGET_PDB = TD2\TrajectoryTest.pdb
+
+build TD2\CMakeFiles\TrajectoryTest.dir\Point3D.cpp.obj: CXX_COMPILER__TrajectoryTest_unscanned_Debug C$:\Users\raffa\source\repos\CIR-2\TDs\TD2\Point3D.cpp || cmake_object_order_depends_target_TrajectoryTest
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  OBJECT_DIR = TD2\CMakeFiles\TrajectoryTest.dir
+  OBJECT_FILE_DIR = TD2\CMakeFiles\TrajectoryTest.dir
+  TARGET_COMPILE_PDB = TD2\CMakeFiles\TrajectoryTest.dir\
+  TARGET_PDB = TD2\TrajectoryTest.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target TrajectoryTest
+
+
+#############################################
+# Link the executable TD2\TrajectoryTest.exe
+
+build TD2\TrajectoryTest.exe: CXX_EXECUTABLE_LINKER__TrajectoryTest_Debug TD2\CMakeFiles\TrajectoryTest.dir\maint.cpp.obj TD2\CMakeFiles\TrajectoryTest.dir\Trajectory.cpp.obj TD2\CMakeFiles\TrajectoryTest.dir\Point3D.cpp.obj
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = TD2\CMakeFiles\TrajectoryTest.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = TD2\CMakeFiles\TrajectoryTest.dir\
+  TARGET_FILE = TD2\TrajectoryTest.exe
+  TARGET_IMPLIB = TD2\TrajectoryTest.lib
+  TARGET_PDB = TD2\TrajectoryTest.pdb
+
+
+#############################################
+# Utility command for edit_cache
+
+build TD2\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\raffa\source\repos\CIR-2\TDs\out\build\x64-Debug\TD2 && "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build TD2\edit_cache: phony TD2\CMakeFiles\edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build TD2\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\raffa\source\repos\CIR-2\TDs\out\build\x64-Debug\TD2 && "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\raffa\source\repos\CIR-2\TDs -BC:\Users\raffa\source\repos\CIR-2\TDs\out\build\x64-Debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build TD2\rebuild_cache: phony TD2\CMakeFiles\rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
+
+build Point3DTest: phony TD2\Point3DTest.exe
+
+build Point3DTest.exe: phony TD2\Point3DTest.exe
 
 build TD1_1: phony TD1\TD1_1.exe
 
@@ -414,6 +647,22 @@ build TD1_8: phony TD1\TD1_8.exe
 
 build TD1_8.exe: phony TD1\TD1_8.exe
 
+build TD2_1: phony TD2\TD2_1.exe
+
+build TD2_1.exe: phony TD2\TD2_1.exe
+
+build TD2_2: phony TD2\TD2_2.exe
+
+build TD2_2.exe: phony TD2\TD2_2.exe
+
+build TD2_3: phony TD2\TD2_3.exe
+
+build TD2_3.exe: phony TD2\TD2_3.exe
+
+build TrajectoryTest: phony TD2\TrajectoryTest.exe
+
+build TrajectoryTest.exe: phony TD2\TrajectoryTest.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -422,7 +671,7 @@ build TD1_8.exe: phony TD1\TD1_8.exe
 #############################################
 # Folder: C:/Users/raffa/source/repos/CIR-2/TDs/out/build/x64-Debug
 
-build all: phony TD1\all
+build all: phony TD1\all TD2\all
 
 # =============================================================================
 
@@ -432,20 +681,27 @@ build all: phony TD1\all
 build TD1\all: phony TD1\TD1_1.exe TD1\TD1_2.exe TD1\TD1_3.exe TD1\TD1_4.exe TD1\TD1_5.exe TD1\TD1_6.exe TD1\TD1_7.exe TD1\TD1_8.exe
 
 # =============================================================================
+
+#############################################
+# Folder: C:/Users/raffa/source/repos/CIR-2/TDs/out/build/x64-Debug/TD2
+
+build TD2\all: phony TD2\TD2_1.exe TD2\TD2_2.exe TD2\TD2_3.exe TD2\Point3DTest.exe TD2\TrajectoryTest.exe
+
+# =============================================================================
 # Built-in targets
 
 
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake C$:\Users\raffa\source\repos\CIR-2\TDs\CMakeLists.txt C$:\Users\raffa\source\repos\CIR-2\TDs\TD1\CMakeLists.txt CMakeCache.txt CMakeFiles\3.30.5-msvc23\CMakeCCompiler.cmake CMakeFiles\3.30.5-msvc23\CMakeCXXCompiler.cmake CMakeFiles\3.30.5-msvc23\CMakeRCCompiler.cmake CMakeFiles\3.30.5-msvc23\CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake C$:\Users\raffa\source\repos\CIR-2\TDs\CMakeLists.txt C$:\Users\raffa\source\repos\CIR-2\TDs\TD1\CMakeLists.txt C$:\Users\raffa\source\repos\CIR-2\TDs\TD2\CMakeLists.txt CMakeCache.txt CMakeFiles\3.30.5-msvc23\CMakeCCompiler.cmake CMakeFiles\3.30.5-msvc23\CMakeCXXCompiler.cmake CMakeFiles\3.30.5-msvc23\CMakeRCCompiler.cmake CMakeFiles\3.30.5-msvc23\CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake C$:\Users\raffa\source\repos\CIR-2\TDs\CMakeLists.txt C$:\Users\raffa\source\repos\CIR-2\TDs\TD1\CMakeLists.txt CMakeCache.txt CMakeFiles\3.30.5-msvc23\CMakeCCompiler.cmake CMakeFiles\3.30.5-msvc23\CMakeCXXCompiler.cmake CMakeFiles\3.30.5-msvc23\CMakeRCCompiler.cmake CMakeFiles\3.30.5-msvc23\CMakeSystem.cmake: phony
+build C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake C$:\Users\raffa\source\repos\CIR-2\TDs\CMakeLists.txt C$:\Users\raffa\source\repos\CIR-2\TDs\TD1\CMakeLists.txt C$:\Users\raffa\source\repos\CIR-2\TDs\TD2\CMakeLists.txt CMakeCache.txt CMakeFiles\3.30.5-msvc23\CMakeCCompiler.cmake CMakeFiles\3.30.5-msvc23\CMakeCXXCompiler.cmake CMakeFiles\3.30.5-msvc23\CMakeRCCompiler.cmake CMakeFiles\3.30.5-msvc23\CMakeSystem.cmake: phony
 
 
 #############################################

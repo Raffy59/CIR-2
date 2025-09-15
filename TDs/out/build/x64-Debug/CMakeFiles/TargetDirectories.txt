@@ -10,3 +10,10 @@ C:/Users/raffa/source/repos/CIR-2/TDs/out/build/x64-Debug/TD1/CMakeFiles/TD1_7.d
 C:/Users/raffa/source/repos/CIR-2/TDs/out/build/x64-Debug/TD1/CMakeFiles/TD1_8.dir
 C:/Users/raffa/source/repos/CIR-2/TDs/out/build/x64-Debug/TD1/CMakeFiles/edit_cache.dir
 C:/Users/raffa/source/repos/CIR-2/TDs/out/build/x64-Debug/TD1/CMakeFiles/rebuild_cache.dir
+C:/Users/raffa/source/repos/CIR-2/TDs/out/build/x64-Debug/TD2/CMakeFiles/TD2_1.dir
+C:/Users/raffa/source/repos/CIR-2/TDs/out/build/x64-Debug/TD2/CMakeFiles/TD2_2.dir
+C:/Users/raffa/source/repos/CIR-2/TDs/out/build/x64-Debug/TD2/CMakeFiles/TD2_3.dir
+C:/Users/raffa/source/repos/CIR-2/TDs/out/build/x64-Debug/TD2/CMakeFiles/Point3DTest.dir
+C:/Users/raffa/source/repos/CIR-2/TDs/out/build/x64-Debug/TD2/CMakeFiles/TrajectoryTest.dir
+C:/Users/raffa/source/repos/CIR-2/TDs/out/build/x64-Debug/TD2/CMakeFiles/edit_cache.dir
+C:/Users/raffa/source/repos/CIR-2/TDs/out/build/x64-Debug/TD2/CMakeFiles/rebuild_cache.dir
