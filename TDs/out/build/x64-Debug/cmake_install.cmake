@@ -36,6 +36,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("C:/Users/raffa/source/repos/CIR-2/TDs/out/build/x64-Debug/TD1/cmake_install.cmake")
   include("C:/Users/raffa/source/repos/CIR-2/TDs/out/build/x64-Debug/TD2/cmake_install.cmake")
+  include("C:/Users/raffa/source/repos/CIR-2/TDs/out/build/x64-Debug/EXO_COURS/cmake_install.cmake")
 
 endif()
 
