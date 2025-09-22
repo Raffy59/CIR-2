@@ -147,6 +147,9 @@
 			"path" : "TD2/CMakeLists.txt"
 		},
 		{
+			"path" : "TD3/CMakeLists.txt"
+		},
+		{
 			"path" : "EXO_COURS/CMakeLists.txt"
 		}
 	],

@@ -10,8 +10,10 @@
 					[
 						1,
 						2,
-						3
+						3,
+						4
 					],
+					"hasInstallRule" : true,
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
@@ -58,7 +60,30 @@
 						11,
 						12,
 						13,
-						14
+						18
+					]
+				},
+				{
+					"build" : "TD3",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-TD3-Debug-19638d28b05c276220ec.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "TD3",
+					"targetIndexes" : 
+					[
+						14,
+						15,
+						16,
+						17,
+						19,
+						20,
+						21,
+						22
 					]
 				},
 				{
@@ -82,12 +107,16 @@
 			"projects" : 
 			[
 				{
+					"childIndexes" : 
+					[
+						1
+					],
 					"directoryIndexes" : 
 					[
 						0,
 						1,
 						2,
-						3
+						4
 					],
 					"name" : "TDs",
 					"targetIndexes" : 
@@ -106,21 +135,40 @@
 						11,
 						12,
 						13,
-						14
+						18
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "GeometryProject",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						14,
+						15,
+						16,
+						17,
+						19,
+						20,
+						21,
+						22
 					]
 				}
 			],
 			"targets" : 
 			[
 				{
-					"directoryIndex" : 3,
+					"directoryIndex" : 4,
 					"id" : "EXO_COURS::@008fe3c6ac000c9d78f1",
 					"jsonFile" : "target-EXO_COURS-Debug-48cda8c63ec014a55124.json",
 					"name" : "EXO_COURS",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 3,
+					"directoryIndex" : 4,
 					"id" : "EXO_COURS2::@008fe3c6ac000c9d78f1",
 					"jsonFile" : "target-EXO_COURS2-Debug-98d872a60fab4d01a238.json",
 					"name" : "EXO_COURS2",
@@ -211,11 +259,67 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 3,
+					"id" : "TD3_2::@65e0d28c03c01646e100",
+					"jsonFile" : "target-TD3_2-Debug-77475747947a458b94ac.json",
+					"name" : "TD3_2",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "TD3_3::@65e0d28c03c01646e100",
+					"jsonFile" : "target-TD3_3-Debug-fc93bfebd40c6eafb0fb.json",
+					"name" : "TD3_3",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "TD3_4::@65e0d28c03c01646e100",
+					"jsonFile" : "target-TD3_4-Debug-1a5159b8eaaa4930972f.json",
+					"name" : "TD3_4",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "TD3_5::@65e0d28c03c01646e100",
+					"jsonFile" : "target-TD3_5-Debug-1dc1fb6d7a3a999293c7.json",
+					"name" : "TD3_5",
+					"projectIndex" : 1
+				},
+				{
 					"directoryIndex" : 2,
 					"id" : "TrajectoryTest::@9da4ee0c75e8576e4e08",
 					"jsonFile" : "target-TrajectoryTest-Debug-4a2c191b988b951e364c.json",
 					"name" : "TrajectoryTest",
 					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "clean-all::@65e0d28c03c01646e100",
+					"jsonFile" : "target-clean-all-Debug-59fe0f6ef9d49c7113d5.json",
+					"name" : "clean-all",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "run_TD3_2::@65e0d28c03c01646e100",
+					"jsonFile" : "target-run_TD3_2-Debug-833e19363a518d6166ec.json",
+					"name" : "run_TD3_2",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "run_TD3_3::@65e0d28c03c01646e100",
+					"jsonFile" : "target-run_TD3_3-Debug-86e293582fcd69c81bfd.json",
+					"name" : "run_TD3_3",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "run_TD3_4::@65e0d28c03c01646e100",
+					"jsonFile" : "target-run_TD3_4-Debug-fa7e0e54a5f942993eb7.json",
+					"name" : "run_TD3_4",
+					"projectIndex" : 1
 				}
 			]
 		}
