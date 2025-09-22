@@ -32,14 +32,14 @@
 					"source" : "TD1",
 					"targetIndexes" : 
 					[
-						2,
 						3,
 						4,
 						5,
 						6,
 						7,
 						8,
-						9
+						9,
+						10
 					]
 				},
 				{
@@ -54,11 +54,11 @@
 					"source" : "TD2",
 					"targetIndexes" : 
 					[
-						1,
-						10,
+						2,
 						11,
 						12,
-						13
+						13,
+						14
 					]
 				},
 				{
@@ -73,7 +73,8 @@
 					"source" : "EXO_COURS",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -104,7 +105,8 @@
 						10,
 						11,
 						12,
-						13
+						13,
+						14
 					]
 				}
 			],
@@ -115,6 +117,13 @@
 					"id" : "EXO_COURS::@008fe3c6ac000c9d78f1",
 					"jsonFile" : "target-EXO_COURS-Debug-48cda8c63ec014a55124.json",
 					"name" : "EXO_COURS",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "EXO_COURS2::@008fe3c6ac000c9d78f1",
+					"jsonFile" : "target-EXO_COURS2-Debug-98d872a60fab4d01a238.json",
+					"name" : "EXO_COURS2",
 					"projectIndex" : 0
 				},
 				{

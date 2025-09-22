@@ -649,6 +649,42 @@ build EXO_COURS\EXO_COURS.exe: CXX_EXECUTABLE_LINKER__EXO_COURS_Debug EXO_COURS\
   TARGET_IMPLIB = EXO_COURS\EXO_COURS.lib
   TARGET_PDB = EXO_COURS\EXO_COURS.pdb
 
+# =============================================================================
+# Object build statements for EXECUTABLE target EXO_COURS2
+
+
+#############################################
+# Order-only phony target for EXO_COURS2
+
+build cmake_object_order_depends_target_EXO_COURS2: phony || .
+
+build EXO_COURS\CMakeFiles\EXO_COURS2.dir\main2.cpp.obj: CXX_COMPILER__EXO_COURS2_unscanned_Debug C$:\Users\raffa\source\repos\CIR-2\TDs\EXO_COURS\main2.cpp || cmake_object_order_depends_target_EXO_COURS2
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  OBJECT_DIR = EXO_COURS\CMakeFiles\EXO_COURS2.dir
+  OBJECT_FILE_DIR = EXO_COURS\CMakeFiles\EXO_COURS2.dir
+  TARGET_COMPILE_PDB = EXO_COURS\CMakeFiles\EXO_COURS2.dir\
+  TARGET_PDB = EXO_COURS\EXO_COURS2.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target EXO_COURS2
+
+
+#############################################
+# Link the executable EXO_COURS\EXO_COURS2.exe
+
+build EXO_COURS\EXO_COURS2.exe: CXX_EXECUTABLE_LINKER__EXO_COURS2_Debug EXO_COURS\CMakeFiles\EXO_COURS2.dir\main2.cpp.obj
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = EXO_COURS\CMakeFiles\EXO_COURS2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = EXO_COURS\CMakeFiles\EXO_COURS2.dir\
+  TARGET_FILE = EXO_COURS\EXO_COURS2.exe
+  TARGET_IMPLIB = EXO_COURS\EXO_COURS2.lib
+  TARGET_PDB = EXO_COURS\EXO_COURS2.pdb
+
 
 #############################################
 # Utility command for edit_cache
@@ -678,6 +714,10 @@ build EXO_COURS\rebuild_cache: phony EXO_COURS\CMakeFiles\rebuild_cache.util
 build EXO_COURS: phony EXO_COURS\EXO_COURS.exe
 
 build EXO_COURS.exe: phony EXO_COURS\EXO_COURS.exe
+
+build EXO_COURS2: phony EXO_COURS\EXO_COURS2.exe
+
+build EXO_COURS2.exe: phony EXO_COURS\EXO_COURS2.exe
 
 build Point3DTest: phony TD2\Point3DTest.exe
 
@@ -746,7 +786,7 @@ build all: phony TD1\all TD2\all EXO_COURS\all
 #############################################
 # Folder: C:/Users/raffa/source/repos/CIR-2/TDs/out/build/x64-Debug/EXO_COURS
 
-build EXO_COURS\all: phony EXO_COURS\EXO_COURS.exe
+build EXO_COURS\all: phony EXO_COURS\EXO_COURS.exe EXO_COURS\EXO_COURS2.exe
 
 # =============================================================================
 

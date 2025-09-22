@@ -18,5 +18,6 @@ C:/Users/raffa/source/repos/CIR-2/TDs/out/build/x64-Debug/TD2/CMakeFiles/Traject
 C:/Users/raffa/source/repos/CIR-2/TDs/out/build/x64-Debug/TD2/CMakeFiles/edit_cache.dir
 C:/Users/raffa/source/repos/CIR-2/TDs/out/build/x64-Debug/TD2/CMakeFiles/rebuild_cache.dir
 C:/Users/raffa/source/repos/CIR-2/TDs/out/build/x64-Debug/EXO_COURS/CMakeFiles/EXO_COURS.dir
+C:/Users/raffa/source/repos/CIR-2/TDs/out/build/x64-Debug/EXO_COURS/CMakeFiles/EXO_COURS2.dir
 C:/Users/raffa/source/repos/CIR-2/TDs/out/build/x64-Debug/EXO_COURS/CMakeFiles/edit_cache.dir
 C:/Users/raffa/source/repos/CIR-2/TDs/out/build/x64-Debug/EXO_COURS/CMakeFiles/rebuild_cache.dir
