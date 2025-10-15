@@ -1,0 +1,6 @@
+FIFA=Fédération Internationale de Football Association
+SFR=Société Française du Radiotéléphone
+CEDEX=Courrier d’Entreprise à Distribution EXceptionnelle
+ISEN=Institut Supérieur de l’Électronique et du Numérique
+JUNIA=Groupe d’écoles d’ingénieurs à Lille
+
