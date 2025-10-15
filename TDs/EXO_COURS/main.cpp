@@ -1,77 +1,37 @@
+#include "Fraction.hpp"
 #include <iostream>
-#include <string>
-
-class Quadrupede {
-public:
-    Quadrupede(const std::string& in_nom) : nom(in_nom) {
-        std::cout << "Naissance d'un quadrupede" << std::endl;
-    }
-    virtual ~Quadrupede() {
-        std::cout << "Mort d'un quadrupede" << std::endl;
-    }
-
-    virtual void speak() = 0; // méthode pure virtuelle
-
-    const std::string& getNom() const {
-        return nom;
-    }
-
-    void setNom(const std::string& nom) {
-        this->nom = nom;
-    }
-
-protected:
-    std::string nom;
-};
-
-class Chien : public Quadrupede {
-public:
-    Chien(const std::string& in_nom) : Quadrupede(in_nom) {
-        std::cout << "Naissance d'un chien." << std::endl;
-    }
-    ~Chien() override {
-        std::cout << "Mort d'un chien." << std::endl;
-    }
-    void speak() override {
-        std::cout << nom << " dit : Ouaf ouaf et pis ouaf" << std::endl;
-    }
-};
-
-class Chat : public Quadrupede {
-public:
-    Chat(const std::string& in_nom) : Quadrupede(in_nom) {
-        std::cout << "Naissance d'un chat." << std::endl;
-    }
-    ~Chat() override {
-        std::cout << "Mort d'un chat." << std::endl;
-    }
-    void speak() override {
-        std::cout << nom << " dit : Miaou et pis c'est tout." << std::endl;
-    }
-    void ou_suis_je() {
-        std::cout << nom << " miaule a la maison." << std::endl;
-    }
-};
+using namespace std;
 
 int main() {
-    constexpr size_t nb_quadrupede = 4;
-    Quadrupede* tableau_de_quadrupede[nb_quadrupede];
+    Fraction f1(1, 2), f2(1, 3);
 
-    // Création des animaux
-    tableau_de_quadrupede[0] = new Chat("Felix");
-    tableau_de_quadrupede[1] = new Chien("Albert");
-    tableau_de_quadrupede[2] = new Chat("Simba");
-    tableau_de_quadrupede[3] = new Chien("Stein");
+    cout << "f1 = " << f1 << endl;
+    cout << "f2 = " << f2 << endl;
 
-    // Appel polymorphe
-    for (size_t iquad = 0; iquad < nb_quadrupede; ++iquad) {
-        tableau_de_quadrupede[iquad]->speak();
-    }
+    // Affectation
+    Fraction f3;
+    f3 = f1;
+    cout << "Affectation f3 = f1 -> f3 = " << f3 << endl;
 
-    // Libération mémoire
-    for (size_t iquad = 0; iquad < nb_quadrupede; ++iquad) {
-        delete tableau_de_quadrupede[iquad];
-    }
+    // ArithmÃ©tiques
+    cout << "f1 + f2 = " << (f1 + f2) << endl;
+    cout << "f1 - f2 = " << (f1 - f2) << endl;
+    cout << "f1 * f2 = " << (f1 * f2) << endl;
+    cout << "f1 / f2 = " << (f1 / f2) << endl;
+
+    // Comparaison classique
+    if (f1 == f2) cout << "f1 == f2" << endl;
+    else cout << "f1 != f2" << endl;
+
+    if (f1 < f2) cout << "f1 < f2" << endl;
+    else cout << "f1 >= f2" << endl;
+
+    // Flux >> <<
+    Fraction f4;
+    cout << "Entrez une fraction (ex: 3/4) : ";
+    cin >> f4;
+    cout << "Vous avez entrÃ© : " << f4 << endl;
 
     return 0;
 }
+
